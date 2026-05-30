@@ -184,15 +184,18 @@ _Build automated research pipelines — from data collection to analysis to repo
 - [Kosmos](https://edisonscientific.com/) - Autonomous AI scientist reading 1,500+ papers per run to synthesize fully cited research reports.
 - [LangChain Open Deep Research](https://github.com/langchain-ai/open_deep_research) - Open-source configurable deep-research agent producing cited reports across any LLM and search tools. ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/open_deep_research?style=flat-square)
 - [Litmaps](https://www.litmaps.com/) - Dynamic multi-seed citation mapping with monitored searches and daily alerts for new papers.
+- [Meta-Mar](https://www.meta-mar.com/) - Free meta-analysis platform where AI reads PDFs and extracts quantitative outcomes.
 - [OpenAlex](https://openalex.org/) - Fully open catalog of scholarly works with a free REST API and semantic search.
 - [OpenScholar](https://github.com/AkariAsai/OpenScholar) - Retrieval-augmented LM for scientific literature synthesis across 45M+ papers (Nature 2026). ![GitHub stars](https://img.shields.io/github/stars/AkariAsai/OpenScholar?style=flat-square)
 - [PaperQA2](https://github.com/Future-House/paper-qa) - RAG system for question answering and summarization over scientific literature. ![GitHub stars](https://img.shields.io/github/stars/Future-House/paper-qa?style=flat-square)
+- [Rayyan](https://www.rayyan.ai/) - AI screening for systematic reviews with 90% time reduction and PRISMA flowcharts.
 - [ResearchRabbit](https://www.researchrabbit.ai/) - Citation network and semantic similarity discovery rebuilt with Litmaps.
 - [SciSpace](https://scispace.com/) - Deep review with iterative search and Zotero integration across 280M papers.
 - [Scite](https://scite.ai/) - Classifies 1.5B+ citations as supporting or contrasting with AI-driven research rankings.
 - [Semantic Scholar](https://www.semanticscholar.org/) - AI-powered academic search with citation analysis, TLDR summaries, and free API across 220M+ papers.
 - [STORM](https://github.com/stanford-oval/storm) - Stanford's LLM-powered system that researches topics and generates full reports with citations. ![GitHub stars](https://img.shields.io/github/stars/stanford-oval/storm?style=flat-square)
 - [Undermind](https://www.undermind.ai/) - Autonomously reads hundreds of papers and produces structured reports with timelines and categories.
+- [Zotero PapersGPT](https://github.com/papersgpt/papersgpt-for-zotero) - Zotero AI plugin supporting ChatGPT, Claude, Gemini, and more for PDF chat and summaries. ![GitHub stars](https://img.shields.io/github/stars/papersgpt/papersgpt-for-zotero?style=flat-square)
 
 ## Economic Data and Analysis
 
@@ -222,7 +225,6 @@ _Build automated research pipelines — from data collection to analysis to repo
 - [Thesify](https://www.thesify.ai/) - AI reviewer evaluating argumentation, methodology, and rigor.
 - [Typst](https://typst.app/) - Modern LaTeX alternative with dramatically simpler syntax and sub-second compilation.
 - [Underleaf](https://www.underleaf.ai/) - Chrome extension for image-to-LaTeX and smart citation generation.
-- [Zotero PapersGPT](https://github.com/papersgpt/papersgpt-for-zotero) - Zotero AI plugin supporting ChatGPT, Claude, Gemini, and more for PDF chat and summaries. ![GitHub stars](https://img.shields.io/github/stars/papersgpt/papersgpt-for-zotero?style=flat-square)
 
 ## Document Processing and OCR
 
@@ -257,11 +259,9 @@ _Build automated research pipelines — from data collection to analysis to repo
 
 - [EUROMOD](https://euromod-web.jrc.ec.europa.eu/) - EU tax-benefit microsimulation covering all 27 member states (open-source, EUPL-1.2).
 - [ImpactAI](https://impactai.worldbank.org/) - World Bank DIME tool synthesizing RCT evidence with effect sizes across interventions.
-- [Meta-Mar](https://www.meta-mar.com/) - Free meta-analysis platform where AI reads PDFs and extracts quantitative outcomes.
 - [OpenFisca](https://openfisca.readthedocs.io/) - Open-source microsimulation engine for computing taxes and benefits on population data.
 - [Plural Policy](https://pluralpolicy.com/) - AI bill summarizer with version comparison and momentum indicators across U.S. jurisdictions.
 - [PolicyEngine](https://github.com/PolicyEngine/policyengine-us) - Open-source U.S. tax-benefit microsimulation. ![GitHub stars](https://img.shields.io/github/stars/PolicyEngine/policyengine-us?style=flat-square)
-- [Rayyan](https://www.rayyan.ai/) - AI screening for systematic reviews with 90% time reduction and PRISMA flowcharts.
 
 ### Labor Market Data
 
