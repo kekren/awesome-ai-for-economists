@@ -57,7 +57,7 @@ A curated list of AI tools, libraries, and resources transforming how economists
 - [U.S. Census Bureau Data API MCP](https://github.com/uscensusbureau/us-census-bureau-data-api-mcp) - Official Census Bureau server connecting AI assistants to demographic, economic, and population statistics. ![GitHub stars](https://img.shields.io/github/stars/uscensusbureau/us-census-bureau-data-api-mcp?style=flat-square)
 - [UN Comtrade MCP Server](https://github.com/cyanheads/un-comtrade-mcp-server) - Access UN Comtrade international trade statistics with country and HS commodity code lookup. ![GitHub stars](https://img.shields.io/github/stars/cyanheads/un-comtrade-mcp-server?style=flat-square)
 - [World Bank Data360 MCP](https://github.com/worldbank/data360-mcp) - Official World Bank server giving AI agents structured access to Data360 development indicators. ![GitHub stars](https://img.shields.io/github/stars/worldbank/data360-mcp?style=flat-square)
-- [World Bank MCP Server](https://github.com/anshumax/world_bank_mcp_server) - Query World Bank Open Data API for development indicators across countries. ![GitHub stars](https://img.shields.io/github/stars/anshumax/world_bank_mcp_server?style=flat-square)
+- [World Bank MCP Server](https://github.com/anshumax/world_bank_mcp_server) - Community server for the legacy World Bank Open Data API (the official one is World Bank Data360 MCP above). ![GitHub stars](https://img.shields.io/github/stars/anshumax/world_bank_mcp_server?style=flat-square)
 
 > Browse the [MCP Registry](https://registry.modelcontextprotocol.io/) to discover more servers.
 
@@ -70,8 +70,8 @@ A curated list of AI tools, libraries, and resources transforming how economists
 - [Jupyter AI](https://github.com/jupyterlab/jupyter-ai) - Official JupyterLab extension with `%%ai` magic commands for code generation and explanation. ![GitHub stars](https://img.shields.io/github/stars/jupyterlab/jupyter-ai?style=flat-square)
 - [Jupyter AI Agents](https://github.com/datalayer/jupyter-ai-agents) - AI agents for JupyterLab with MCP integration for connecting notebooks to FRED, World Bank, and more. ![GitHub stars](https://img.shields.io/github/stars/datalayer/jupyter-ai-agents?style=flat-square)
 - [Marimo](https://github.com/marimo-team/marimo) - Reactive Python notebook stored as pure .py files with built-in AI assistant. ![GitHub stars](https://img.shields.io/github/stars/marimo-team/marimo?style=flat-square)
-- [opencode](https://github.com/sst/opencode) - Open-source, provider-agnostic AI coding agent built for the terminal with a TUI. ![GitHub stars](https://img.shields.io/github/stars/sst/opencode?style=flat-square)
-- [Positron IDE](https://posit.co/products/ide/positron/) - Next-gen IDE from Posit (makers of RStudio) with native R and Python support and AI-powered data assistant.
+- [opencode](https://github.com/anomalyco/opencode) - Open-source, provider-agnostic AI coding agent built for the terminal with a TUI. ![GitHub stars](https://img.shields.io/github/stars/anomalyco/opencode?style=flat-square)
+- [Positron IDE](https://posit.co/products/ide/positron/) - IDE from Posit (makers of RStudio) with native R and Python support and an AI data assistant.
 - [**Stata-MCP**](https://github.com/hanlulong/stata-mcp) - Execute .do/.ado/.mata files from VS Code, Cursor, Claude Code, or GitHub Copilot with real-time output panels, built-in data viewer, and graph display. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/stata-mcp?style=flat-square)
 
 ### AI Agent Frameworks
@@ -87,7 +87,7 @@ _Build automated research pipelines — from data collection to analysis to repo
 - [ellmer](https://ellmer.tidyverse.org) - Tidyverse R package for calling LLM APIs with tool calling and structured data extraction. ![GitHub stars](https://img.shields.io/github/stars/tidyverse/ellmer?style=flat-square)
 - [Google ADK](https://github.com/google/adk-python) - Google's modular multi-agent framework with MCP and A2A protocol support. ![GitHub stars](https://img.shields.io/github/stars/google/adk-python?style=flat-square)
 - [GPT Researcher](https://github.com/assafelovic/gpt-researcher) - Autonomous deep research agent producing cited reports from web sources. ![GitHub stars](https://img.shields.io/github/stars/assafelovic/gpt-researcher?style=flat-square)
-- [LangGraph](https://langchain-ai.github.io/langgraph/) - Stateful agent workflows with cyclic graphs; 6M+ monthly downloads.
+- [LangGraph](https://langchain-ai.github.io/langgraph/) - Stateful agent workflows built on cyclic graphs.
 - [MetaGPT](https://github.com/FoundationAgents/MetaGPT) - Multi-agent framework simulating roles (PM, analyst, engineer) with structured SOPs. ![GitHub stars](https://img.shields.io/github/stars/FoundationAgents/MetaGPT?style=flat-square)
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - Lightweight production-ready multi-agent framework with handoffs and guardrails. ![GitHub stars](https://img.shields.io/github/stars/openai/openai-agents-python?style=flat-square)
 - [Pydantic AI](https://ai.pydantic.dev/) - Type-safe agent framework with structured input/output, ideal for working with economic data.
@@ -104,7 +104,7 @@ How to chain tools from this list into end-to-end pipelines. Each tool is descri
 | [Literature review to synthesis](#literature-review-to-synthesis) | discover → read → synthesize → draft |
 | [Data to causal estimates](#data-to-causal-estimates) | pull data → estimate → check robustness |
 | [Digitize historical and PDF data](#digitize-historical-and-pdf-data) | OCR → structure → link → analyze |
-| [Forecasting and nowcasting](#forecasting-and-nowcasting-pipeline) | pull series → backtest → forecast |
+| [Forecasting and nowcasting pipeline](#forecasting-and-nowcasting-pipeline) | pull series → backtest → forecast |
 | [Draft to submission](#draft-to-submission) | tables → write → self-referee → submit |
 
 ### Set up your AI research environment
@@ -142,7 +142,7 @@ _Goal: go from a research question to a regression table._
 
 _Goal: turn scanned tables, archives, or PDFs into an analysis-ready dataset._
 
-[**Marker**](#document-processing-and-ocr) / [**Docling**](#document-processing-and-ocr) / [**OlmOCR**](#document-processing-and-ocr) → record linkage → [**Stata-MCP**](#coding-tools-for-economists)
+[**Marker**](#document-processing-and-ocr) / [**Docling**](#document-processing-and-ocr) / [**MinerU**](#document-processing-and-ocr) / [**OlmOCR**](#document-processing-and-ocr) → record linkage → [**Stata-MCP**](#coding-tools-for-economists)
 
 - **Extract** text, tables, and equations with Marker, Docling, MinerU, or OlmOCR ([Mathpix](#document-processing-and-ocr) for equations).
 - **Structure and link** records into panels, spot-checking a sample against the source images.
@@ -193,7 +193,7 @@ _Goal: go from results to a submitted paper._
 - [CausalPFN](https://github.com/vdblm/CausalPFN) - Prior-fitted transformer for amortized, in-context ATE and CATE estimation without per-dataset retraining. ![GitHub stars](https://img.shields.io/github/stars/vdblm/CausalPFN?style=flat-square)
 - [CImpact](https://github.com/Sanofi-Public/CImpact) - Causal impact for time series with frequentist and Bayesian methods. ![GitHub stars](https://img.shields.io/github/stars/Sanofi-Public/CImpact?style=flat-square)
 - [contdid](https://github.com/bcallaway11/contdid) - DiD with continuous treatment, by Brantly Callaway. ![GitHub stars](https://img.shields.io/github/stars/bcallaway11/contdid?style=flat-square)
-- [diff-diff](https://github.com/igerber/diff-diff) - sklearn-style difference-in-differences library filling a critical gap in Python. ![GitHub stars](https://img.shields.io/github/stars/igerber/diff-diff?style=flat-square)
+- [diff-diff](https://github.com/igerber/diff-diff) - Scikit-learn-style difference-in-differences library for Python. ![GitHub stars](https://img.shields.io/github/stars/igerber/diff-diff?style=flat-square)
 - [differences](https://github.com/bernardodionisi/differences) - Python implementation of Callaway and Sant'Anna staggered difference-in-differences with multiple periods and triple differences. ![GitHub stars](https://img.shields.io/github/stars/bernardodionisi/differences?style=flat-square)
 - [DoubleLingo](https://github.com/markov24/DoubleLingo) - Double ML with LLM-based nuisance models for causal inference on unstructured data. ![GitHub stars](https://img.shields.io/github/stars/markov24/DoubleLingo?style=flat-square)
 - [moderndid](https://github.com/jordandeklerk/moderndid) - GPU-accelerated modern DiD with staggered adoption and event studies. ![GitHub stars](https://img.shields.io/github/stars/jordandeklerk/moderndid?style=flat-square)
@@ -237,7 +237,7 @@ _Goal: go from results to a submitted paper._
 
 - [Axelrod](https://github.com/Axelrod-Python/Axelrod) - Iterated Prisoner's Dilemma research with 200+ strategies and tournament simulations. ![GitHub stars](https://img.shields.io/github/stars/Axelrod-Python/Axelrod?style=flat-square)
 - [Nashpy](https://nashpy.readthedocs.io/) - Two-player game solver with support enumeration, vertex enumeration, and Lemke-Howson.
-- [pygambit](https://www.gambit-project.org/) - Comprehensive game theory computation for extensive and strategic form games with Python API.
+- [pygambit](https://www.gambit-project.org/) - Game theory computation for extensive and strategic form games with a Python API.
 
 ### DSGE and Structural Models
 
@@ -255,12 +255,12 @@ _Goal: go from results to a submitted paper._
 - [Asta](https://asta.allen.ai/) - Ai2's open agentic-science assistant for paper finding, cited literature synthesis, and data analysis. ![GitHub stars](https://img.shields.io/github/stars/allenai/asta-bench?style=flat-square)
 - [Connected Papers](https://www.connectedpapers.com/) - Visual graphs of related papers from a seed paper.
 - [Consensus](https://consensus.app/) - Evidence meter categorizing findings as yes/no/mixed across 200M+ papers.
-- [Elicit](https://elicit.com/) - Research agents synthesizing up to 80 papers into structured briefs from 138M papers.
+- [Elicit](https://elicit.com/) - Research agents synthesizing up to 80 papers into structured briefs from a large literature corpus.
 - [Inciteful](https://inciteful.xyz/) - Free citation network analysis using graph algorithms to find key papers and connections.
 - [Kosmos](https://edisonscientific.com/) - Autonomous AI scientist reading 1,500+ papers per run to synthesize fully cited research reports.
 - [LangChain Open Deep Research](https://github.com/langchain-ai/open_deep_research) - Open-source configurable deep-research agent producing cited reports across any LLM and search tools. ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/open_deep_research?style=flat-square)
 - [Litmaps](https://www.litmaps.com/) - Dynamic multi-seed citation mapping with monitored searches and daily alerts for new papers.
-- [OpenAlex](https://openalex.org/) - Fully open catalog of 477M+ scholarly works with free REST API and semantic search.
+- [OpenAlex](https://openalex.org/) - Fully open catalog of scholarly works with a free REST API and semantic search.
 - [OpenScholar](https://github.com/AkariAsai/OpenScholar) - Retrieval-augmented LM for scientific literature synthesis across 45M+ papers (Nature 2026). ![GitHub stars](https://img.shields.io/github/stars/AkariAsai/OpenScholar?style=flat-square)
 - [PaperQA2](https://github.com/Future-House/paper-qa) - RAG system for question answering and summarization over scientific literature. ![GitHub stars](https://img.shields.io/github/stars/Future-House/paper-qa?style=flat-square)
 - [ResearchRabbit](https://www.researchrabbit.ai/) - Citation network and semantic similarity discovery rebuilt with Litmaps.
@@ -309,7 +309,7 @@ _Goal: go from results to a submitted paper._
 - [Marker](https://github.com/datalab-to/marker) - PDF to Markdown/JSON at 122 pages/sec with multi-page table merging. ![GitHub stars](https://img.shields.io/github/stars/datalab-to/marker?style=flat-square)
 - [Mathpix](https://mathpix.com/) - Screenshot-to-LaTeX OCR for equations, tables, and diagrams with PDF-to-Overleaf conversion.
 - [MinerU](https://github.com/opendatalab/MinerU) - PDF, web, and e-book content extraction with OCR for 84 languages. ![GitHub stars](https://img.shields.io/github/stars/opendatalab/MinerU?style=flat-square)
-- [Mistral OCR 3](https://mistral.ai/news/mistral-ocr-3) - $1–2 per 1,000 pages with support for cursive, complex tables, and low DPI.
+- [Mistral OCR 3](https://mistral.ai/news/mistral-ocr-3) - Costs $1–2 per 1,000 pages with support for cursive, complex tables, and low DPI.
 - [OlmOCR](https://github.com/allenai/olmocr) - Allen AI's fully open-source OCR with SOTA accuracy on tables, equations, and handwriting. ![GitHub stars](https://img.shields.io/github/stars/allenai/olmocr?style=flat-square)
 - [PaddleOCR-VL](https://github.com/PaddlePaddle/PaddleOCR) - Vision-language OCR extracting layout, formulas, and structured tables from documents across many languages. ![GitHub stars](https://img.shields.io/github/stars/PaddlePaddle/PaddleOCR?style=flat-square)
 - [Pix2Text](https://github.com/breezedeus/Pix2Text) - Open-source tool recognizing layouts, tables, and math formulas in images, exporting LaTeX and Markdown. ![GitHub stars](https://img.shields.io/github/stars/breezedeus/Pix2Text?style=flat-square)
@@ -379,8 +379,8 @@ _Goal: go from results to a submitted paper._
 
 ### Survey and Qualitative Research
 
-- [ATLAS.ti](https://atlasti.com/) - AI-powered qualitative coding reducing manual effort by 90%.
 - [Anthropic Interviewer](https://www.anthropic.com/research/anthropic-interviewer) - AI-conducted adaptive qualitative interviews at scale across 159 countries.
+- [ATLAS.ti](https://atlasti.com/) - AI-powered qualitative coding reducing manual effort by 90%.
 - [Conveo](https://conveo.ai/) - AI video interviews with multimodal analysis at scale.
 - [Outset AI](https://outset.ai/) - Hundreds of AI-moderated interviews simultaneously in 40+ languages.
 - [TheySaid](https://www.theysaid.io) - AI-moderated surveys with conversational follow-ups.
@@ -473,3 +473,9 @@ _Widely known tools listed for completeness with notes on what economists specif
 ## Contributing
 
 Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
+
+## License
+
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, the contributors have waived all copyright and related or neighboring rights to this work. See [LICENSE](LICENSE).
