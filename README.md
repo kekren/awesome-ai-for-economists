@@ -350,12 +350,14 @@ _Build automated research pipelines — from data collection to analysis to repo
 ### Courses, Guides and Tutorials
 
 - [AI for Economists](https://sites.google.com/view/lastunen/ai-for-economists) - Jesse Lastunen's prompt-focused templates.
+- [AI Tools for Economists and Policy Analysts](https://www.aei.org/technology-and-innovation/ai-tools-for-economists-and-policy-analysts/) - Will Rinehart's (AEI) regularly updated guide mapping AI tools and prompts to economics and policy tasks.
 - [Claude Blattman](https://claudeblattman.com/) - Chris Blattman's (UChicago) open-source guide to AI research workflows with Claude Code, no coding required.
 - [Claude Code Academic Workflow](https://psantanna.com/claude-code-my-workflow/) - Pedro Sant'Anna's (Emory) ready-to-fork Claude Code template for economics research and teaching.
 - [Data Analysis with AI v2.0](https://gabors-data-analysis.com/ai-course/) - Gabor Bekes, CEU Vienna (2026). 12-week course covering LLMs for IV, DiD, and simulations.
 - [EconDL](https://dell-research-harvard.github.io/projects/384econdl) - Melissa Dell's Jupyter notebooks for deep learning in economics.
 - [Economics of Transformative AI](https://digitaleconomy.stanford.edu/about/education/the-economics-of-transformative-ai/) - Stanford course with slides and exercises.
 - [genaiforecon.org](https://www.genaiforecon.org/) - Korinek's companion site with semi-annual updates on tools and techniques.
+- [How to Learn and Teach Economics with LLMs](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4391863) - Cowen and Tabarrok's (GMU) practical guide to using GPT for learning, teaching, and researching economics.
 - [ML and Causal Inference](https://www.gsb.stanford.edu/faculty-research/labs-initiatives/sil/research/methods/ai-machine-learning/short-course) - Susan Athey, Stanford GSB.
 - [ML and Economics at Oxford](https://maxkasy.github.io/home/ML_Econ_Oxford/) - Maximilian Kasy's reading group.
 - [Modern AI for Economics Research](https://markusacademy.substack.com/p/modern-ai-for-economics-research) - Markus' Academy talk by Benjamin Golub on Cursor, AI refereeing, and prompting for research.
@@ -374,7 +376,7 @@ _Build automated research pipelines — from data collection to analysis to repo
 
 ### Community
 
-**Newsletters:** [genaiforecon](https://genaiforecon.substack.com/) (Korinek) | [Causal Inference](https://causalinf.substack.com/) (Cunningham) | [Autonomous Econ](https://autonomousecon.substack.com/) (Wong) | [One Useful Thing](https://www.oneusefulthing.org/) (Mollick)
+**Newsletters:** [genaiforecon](https://genaiforecon.substack.com/) (Korinek) | [Causal Inference](https://causalinf.substack.com/) (Cunningham) | [Autonomous Econ](https://autonomousecon.substack.com/) (Wong) | [One Useful Thing](https://www.oneusefulthing.org/) (Mollick) | [paulgp](https://paulgp.substack.com/) (Goldsmith-Pinkham) | [Frankly, the Counterfactual](https://franklythecounterfactual.substack.com/) (IU O'Neill)
 
 **Podcasts:** [Dwarkesh Podcast](https://www.dwarkesh.com/podcast) | [Exponential View](https://podcasts.apple.com/us/podcast/azeem-azhars-exponential-view/id1172218725)
 
