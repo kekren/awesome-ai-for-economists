@@ -12,15 +12,15 @@ A curated list of AI tools, libraries, and resources transforming how economists
 
 > This list is maintained by the [OpenEcon](https://openecon.ai/) team — building open-source infrastructure connecting AI to economics.
 >
-> - **[OpenEcon Data](https://openecon.ai/)** — Query 330,000+ economic indicators from FRED, World Bank, IMF, and 10+ sources in plain English. Available as [web app](https://data.openecon.ai), Python API, and [MCP server](https://github.com/hanlulong/openecon-data).
+> - **[AI-research-setup](https://github.com/hanlulong/AI-research-setup)** — New to this? Start here to set up Claude Code and Codex for economics research on macOS and Windows. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/AI-research-setup?style=flat-square)
+> - **[OpenEcon Data](https://openecon.ai/)** — Query 330,000+ economic indicators from FRED, World Bank, IMF, and 10+ sources in plain English. Available as [web app](https://data.openecon.ai), Python API, and [MCP server](https://github.com/hanlulong/openecon-data). ![GitHub stars](https://img.shields.io/github/stars/hanlulong/openecon-data?style=flat-square)
 > - **[Stata-MCP](https://github.com/hanlulong/stata-mcp)** — Run Stata from VS Code, Cursor, Claude Code, and GitHub Copilot with real-time output, data viewer, and graph display. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/stata-mcp?style=flat-square)
-> - **[Econ Writing Skill](https://github.com/hanlulong/econ-writing-skill)** — AI agent skill for writing economics papers, synthesizing 50+ guides by Cochrane, McCloskey, Shapiro, Head, and other leading economists.
+> - **[Econ Writing Skill](https://github.com/hanlulong/econ-writing-skill)** — AI agent skill for writing economics papers, synthesizing 50+ guides by Cochrane, McCloskey, Shapiro, Head, and other leading economists. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/econ-writing-skill?style=flat-square)
 
 ## Contents
 
 - [MCP Servers for Economic Data](#mcp-servers-for-economic-data)
 - [Coding Tools for Economists](#coding-tools-for-economists)
-- [Research Workflows](#research-workflows)
 - [Causal Inference and Econometrics](#causal-inference-and-econometrics)
 - [Simulation, Forecasting and Macro Modeling](#simulation-forecasting-and-macro-modeling)
 - [Literature Review and Research Discovery](#literature-review-and-research-discovery)
@@ -93,82 +93,6 @@ _Build automated research pipelines — from data collection to analysis to repo
 - [Pydantic AI](https://ai.pydantic.dev/) - Type-safe agent framework with structured input/output, ideal for working with economic data.
 - [smolagents](https://github.com/huggingface/smolagents) - Hugging Face's minimalist agent library where agents write actions as Python code. ![GitHub stars](https://img.shields.io/github/stars/huggingface/smolagents?style=flat-square)
 - [The AI Scientist](https://github.com/SakanaAI/AI-Scientist) - Sakana AI framework for fully automated research with LaTeX paper generation and automated reviewing. ![GitHub stars](https://img.shields.io/github/stars/SakanaAI/AI-Scientist?style=flat-square)
-
-## Research Workflows
-
-How to chain tools from this list into end-to-end pipelines. Each tool is described in its own section — here we show the **order**, the **handoffs**, and where a human must stay in the loop.
-
-| Workflow | Pipeline |
-|----------|----------|
-| [Set up your AI research environment](#set-up-your-ai-research-environment) | install → configure → wire up data and Stata |
-| [Literature review to synthesis](#literature-review-to-synthesis) | discover → read → synthesize → draft |
-| [Data to causal estimates](#data-to-causal-estimates) | pull data → estimate → check robustness |
-| [Digitize historical and PDF data](#digitize-historical-and-pdf-data) | OCR → structure → link → analyze |
-| [Forecasting and nowcasting pipeline](#forecasting-and-nowcasting-pipeline) | pull series → backtest → forecast |
-| [Draft to submission](#draft-to-submission) | tables → write → self-referee → submit |
-
-### Set up your AI research environment
-
-_Goal: get an AI coding agent wired to your economics stack before anything else._
-
-[**AI-research-setup**](#coding-tools-for-economists) → [**Stata-MCP**](#coding-tools-for-economists) + [**OpenEcon**](#mcp-servers-for-economic-data)
-
-- **Install and configure** Claude Code or Codex by following AI-research-setup — models, permissions, and a project `CLAUDE.md` / `AGENTS.md`.
-- **Wire up your stack** so the agent can run `.do` files through Stata-MCP and query live data via OpenEcon and other [MCP servers](#mcp-servers-for-economic-data).
-- **Keep it reproducible** — commit the config so every machine and coauthor shares the same environment.
-
-### Literature review to synthesis
-
-_Goal: turn a topic into a cited synthesis you can defend._
-
-[**Elicit**](#literature-review-and-research-discovery) / [**Undermind**](#literature-review-and-research-discovery) → [**PaperQA2**](#literature-review-and-research-discovery) / [**OpenScholar**](#literature-review-and-research-discovery) → [**Zotero PapersGPT**](#academic-writing-and-latex) → [**Econ Writing Skill**](#academic-writing-and-latex)
-
-- **Discover and screen** the field with Elicit or Undermind; map citation networks with [Connected Papers](#literature-review-and-research-discovery) or [Litmaps](#literature-review-and-research-discovery).
-- **Read deeply** — ask grounded questions of the PDFs with PaperQA2 or OpenScholar.
-- **Draft** the review with Econ Writing Skill, then **verify every citation and number by hand** — synthesis agents still hallucinate references.
-
-### Data to causal estimates
-
-_Goal: go from a research question to a regression table._
-
-[**OpenEcon**](#mcp-servers-for-economic-data) / [**FRED MCP Server**](#mcp-servers-for-economic-data) → [**Stata-MCP**](#coding-tools-for-economists) / [**EconML**](#core-libraries) → [**moderndid**](#frontier-tools) / [**DoubleML**](#core-libraries)
-
-- **Pull data** in plain English with OpenEcon (export straight to `.dta`, CSV, or a DataFrame).
-- **Estimate** with your agent driving Stata-MCP for classic econometrics, or EconML / [grf](#core-libraries) for heterogeneous treatment effects.
-- **Match the design** — moderndid for staggered DiD, [CausalPy](#core-libraries) for synthetic control / RDD, [DoWhy](#core-libraries) to formalize and refute assumptions.
-- **Stress-test** specifications, then read the output back yourself before believing it.
-
-### Digitize historical and PDF data
-
-_Goal: turn scanned tables, archives, or PDFs into an analysis-ready dataset._
-
-[**Marker**](#document-processing-and-ocr) / [**Docling**](#document-processing-and-ocr) / [**MinerU**](#document-processing-and-ocr) / [**OlmOCR**](#document-processing-and-ocr) → record linkage → [**Stata-MCP**](#coding-tools-for-economists)
-
-- **Extract** text, tables, and equations with Marker, Docling, MinerU, or OlmOCR ([Mathpix](#document-processing-and-ocr) for equations).
-- **Structure and link** records into panels, spot-checking a sample against the source images.
-- **Analyze** the cleaned panel with your usual stack — and document the pipeline so it re-runs.
-
-### Forecasting and nowcasting pipeline
-
-_Goal: produce and validate forecasts of economic series._
-
-[**OpenEcon**](#mcp-servers-for-economic-data) → [**statsforecast**](#forecasting-and-nowcasting) / [**Chronos**](#forecasting-and-nowcasting) / [**TimesFM**](#forecasting-and-nowcasting)
-
-- **Pull the series** and build a clean train/test split.
-- **Backtest** classical baselines (statsforecast) against time-series foundation models (Chronos, TimesFM, [Lag-Llama](#forecasting-and-nowcasting)).
-- **Validate** out-of-sample before trusting any model — foundation models are not automatically better.
-
-### Draft to submission
-
-_Goal: go from results to a submitted paper._
-
-[**Econ Writing Skill**](#academic-writing-and-latex) → [**Overleaf AI Assist**](#academic-writing-and-latex) + [**overleaf-sync-now**](#academic-writing-and-latex) → [**AI Research Feedback**](#academic-writing-and-latex) / [**Refine.ink**](#academic-writing-and-latex) / [**Thesify**](#academic-writing-and-latex)
-
-- **Write** the draft, tables, and figures with Econ Writing Skill, which encodes advice from 50+ leading economists.
-- **Collaborate in LaTeX** via Overleaf AI Assist; run overleaf-sync-now so your AI agent never overwrites fresh web edits with a stale local copy.
-- **Self-referee** with AI Research Feedback, Refine.ink, or Thesify to catch weak arguments before a journal does.
-
-> **Keep a human in the loop.** AI accelerates the micro-tasks — drafting, coding, search, extraction — but you own the research. Verify every citation, number, and result against the source, hand-check AI-generated classifications, and keep everything under version control so it stays reproducible. To set up this stack from scratch, follow [AI-research-setup](#coding-tools-for-economists); for deeper guides, see [genaiforecon.org](https://www.genaiforecon.org/) (Korinek) and [Using AI in Research and Teaching](https://paulgp.substack.com/p/using-ai-in-research-and-teaching) (Goldsmith-Pinkham).
 
 ## Causal Inference and Econometrics
 
