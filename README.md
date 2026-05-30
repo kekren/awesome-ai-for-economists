@@ -213,7 +213,6 @@ _Build automated research pipelines — from data collection to analysis to repo
 
 - [AI Research Feedback](https://github.com/claesbackman/AI-research-feedback) - Claude Code skills giving multi-agent referee-style feedback on economics papers before submission. ![GitHub stars](https://img.shields.io/github/stars/claesbackman/AI-research-feedback?style=flat-square)
 - [**Econ Writing Skill**](https://github.com/hanlulong/econ-writing-skill) - Agent skill for writing economics papers, synthesizing 50+ guides by Cochrane, McCloskey, Shapiro, Head, and others. Works with Claude Code and OpenAI Codex. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/econ-writing-skill?style=flat-square)
-- [MATLAB Plot Skill](https://github.com/hanlulong/matlab-plot-skill) - Claude and Codex skill turning messy MATLAB figures into publication-quality plots with vector PDF export for LaTeX. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/matlab-plot-skill?style=flat-square)
 - [OpenAI Prism](https://openai.com/prism/) - Free LaTeX workspace with citation management, Zotero sync, sketch-to-equation, and real-time collaboration.
 - [Overleaf AI Assist](https://www.overleaf.com/about/ai-features) - LaTeX error fixing, table generation, and equation generation from prompts or images.
 - [overleaf-sync-now](https://github.com/hanlulong/overleaf-sync-now) - Keeps local LaTeX in sync with Overleaf so AI coding agents never edit a stale paper. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/overleaf-sync-now?style=flat-square)
