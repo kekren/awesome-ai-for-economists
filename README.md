@@ -347,15 +347,20 @@ _Build automated research pipelines — from data collection to analysis to repo
 
 ## Courses, Conferences and Community
 
-### Courses
+### Courses, Guides and Tutorials
 
 - [AI for Economists](https://sites.google.com/view/lastunen/ai-for-economists) - Jesse Lastunen's prompt-focused templates.
+- [Claude Blattman](https://claudeblattman.com/) - Chris Blattman's (UChicago) open-source guide to AI research workflows with Claude Code, no coding required.
+- [Claude Code Academic Workflow](https://psantanna.com/claude-code-my-workflow/) - Pedro Sant'Anna's (Emory) ready-to-fork Claude Code template for economics research and teaching.
 - [Data Analysis with AI v2.0](https://gabors-data-analysis.com/ai-course/) - Gabor Bekes, CEU Vienna (2026). 12-week course covering LLMs for IV, DiD, and simulations.
 - [EconDL](https://dell-research-harvard.github.io/projects/384econdl) - Melissa Dell's Jupyter notebooks for deep learning in economics.
 - [Economics of Transformative AI](https://digitaleconomy.stanford.edu/about/education/the-economics-of-transformative-ai/) - Stanford course with slides and exercises.
 - [genaiforecon.org](https://www.genaiforecon.org/) - Korinek's companion site with semi-annual updates on tools and techniques.
 - [ML and Causal Inference](https://www.gsb.stanford.edu/faculty-research/labs-initiatives/sil/research/methods/ai-machine-learning/short-course) - Susan Athey, Stanford GSB.
 - [ML and Economics at Oxford](https://maxkasy.github.io/home/ML_Econ_Oxford/) - Maximilian Kasy's reading group.
+- [Modern AI for Economics Research](https://markusacademy.substack.com/p/modern-ai-for-economics-research) - Markus' Academy talk by Benjamin Golub on Cursor, AI refereeing, and prompting for research.
+- [Reflections on Vibe Researching](https://joshuagans.substack.com/p/reflections-on-vibe-researching) - Joshua Gans (Toronto) on where LLMs aid theory work and where human judgment stays essential.
+- [Research in the Time of AI](https://paulgp.substack.com/p/research-in-the-time-of-ai) - Paul Goldsmith-Pinkham (Yale) on where AI compresses the research timeline and where taste matters.
 - [The Economics of AI](https://www.coursera.org/learn/economics-of-ai) - Korinek, UVA on Coursera.
 - [Using AI in Research and Teaching](https://paulgp.substack.com/p/using-ai-in-research-and-teaching) - Paul Goldsmith-Pinkham, Yale SOM.
 
