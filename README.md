@@ -247,6 +247,7 @@ _Build automated research pipelines — from data collection to analysis to repo
 - [FinBERT](https://huggingface.co/ProsusAI/finbert) - Fine-tuned BERT for financial sentiment, widely cited in economics and finance research.
 - [FinSentGPT](https://www.sciencedirect.com/science/article/pii/S1057521924002230) - Fine-tuned ChatGPT for multilingual financial sentiment, tested on ECB Monetary Policy Decisions.
 - [FinVADER](https://github.com/PetrKorab/FinVADER) - VADER updated with financial lexicons. ![GitHub stars](https://img.shields.io/github/stars/PetrKorab/FinVADER?style=flat-square)
+- [GABRIEL](https://github.com/openai/GABRIEL) - OpenAI toolkit turning text, images, or audio into quantitative measures for social scientists. ![GitHub stars](https://img.shields.io/github/stars/openai/GABRIEL?style=flat-square)
 - [Llama-3.1-Hawkish-8B](https://huggingface.co/mukaj/Llama-3.1-Hawkish-8B) - Llama-3.1-8B fine-tuned for financial NLP, including hawkish/dovish classification of Fed communications.
 - [SentiBigNomics](https://github.com/consose/SentiBigNomics) - Sentiment analysis designed for economic text with aspect-based and negation handling. ![GitHub stars](https://img.shields.io/github/stars/consose/SentiBigNomics?style=flat-square)
 - [WorldCentralBanks](https://github.com/gtfintechlab/WorldCentralBanks) - Annotated corpus and per-bank models classifying monetary policy stance in central bank communications worldwide. ![GitHub stars](https://img.shields.io/github/stars/gtfintechlab/WorldCentralBanks?style=flat-square)
