@@ -186,6 +186,7 @@ _Build automated research pipelines — from data collection to analysis to repo
 - [LangChain Open Deep Research](https://github.com/langchain-ai/open_deep_research) - Open-source configurable deep-research agent producing cited reports across any LLM and search tools. ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/open_deep_research?style=flat-square)
 - [Litmaps](https://www.litmaps.com/) - Dynamic multi-seed citation mapping with monitored searches and daily alerts for new papers.
 - [Meta-Mar](https://www.meta-mar.com/) - Free meta-analysis platform where AI reads PDFs and extracts quantitative outcomes.
+- [MindMap AI](https://mindmapai.app/) - Turns research papers, PDFs, and notes into structured visual mind maps for literature synthesis.
 - [OpenAlex](https://openalex.org/) - Fully open catalog of scholarly works with a free REST API and semantic search.
 - [OpenScholar](https://github.com/AkariAsai/OpenScholar) - Retrieval-augmented LM for scientific literature synthesis across 45M+ papers (Nature 2026). ![GitHub stars](https://img.shields.io/github/stars/AkariAsai/OpenScholar?style=flat-square)
 - [PaperQA2](https://github.com/Future-House/paper-qa) - RAG system for question answering and summarization over scientific literature. ![GitHub stars](https://img.shields.io/github/stars/Future-House/paper-qa?style=flat-square)
@@ -195,6 +196,7 @@ _Build automated research pipelines — from data collection to analysis to repo
 - [Scite](https://scite.ai/) - Classifies 1.5B+ citations as supporting or contrasting with AI-driven research rankings.
 - [Semantic Scholar](https://www.semanticscholar.org/) - AI-powered academic search with citation analysis, TLDR summaries, and free API across 220M+ papers.
 - [STORM](https://github.com/stanford-oval/storm) - Stanford's LLM-powered system that researches topics and generates full reports with citations. ![GitHub stars](https://img.shields.io/github/stars/stanford-oval/storm?style=flat-square)
+- [Suppr](https://suppr.ai/) - AI literature search, document translation, and deep-research reports over PubMed and OpenAlex, with a Zotero plugin.
 - [Undermind](https://www.undermind.ai/) - Autonomously reads hundreds of papers and produces structured reports with timelines and categories.
 - [Zotero PapersGPT](https://github.com/papersgpt/papersgpt-for-zotero) - Zotero AI plugin supporting ChatGPT, Claude, Gemini, and more for PDF chat and summaries. ![GitHub stars](https://img.shields.io/github/stars/papersgpt/papersgpt-for-zotero?style=flat-square)
 
@@ -210,6 +212,7 @@ _Build automated research pipelines — from data collection to analysis to repo
 - [**OpenEcon Data**](https://openecon.ai/) - Query 330,000+ economic indicators from FRED, World Bank, IMF, Comtrade, StatsCan, Eurostat, BIS, and more in plain English. Export to CSV, JSON, DTA, or Python. [Try it](https://data.openecon.ai) | [GitHub](https://github.com/hanlulong/openecon-data) ![GitHub stars](https://img.shields.io/github/stars/hanlulong/openecon-data?style=flat-square)
 - [fedfred](https://github.com/nikhilxsunder/fedfred) - Modern Python client for the FRED API at scale. ![GitHub stars](https://img.shields.io/github/stars/nikhilxsunder/fedfred?style=flat-square)
 - [FRED API v2](https://fred.stlouisfed.org/docs/api/fred/) - Bulk retrieval of all series in any release across 800,000+ time series.
+- [FXMacroData](https://fxmacrodata.com/) - API and MCP server for macroeconomic releases, calendars, FX, commodities, and bond yields, queryable in plain English.
 - [Global Macro Database](https://www.globalmacrodata.com/) - Open-source macro dataset covering 241 countries, 1086–2024, from contemporary and historical sources.
 - [Trading Economics API](https://tradingeconomics.com/api/) - 300,000+ indicators from 196 countries with Python and R packages.
 
